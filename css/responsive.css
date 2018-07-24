@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width: 1024px){
+.main_container {
+	width: 97%;
+	padding: 80px 0 100px;
+}
+.node_width{width:70%;}
+.body_container {
+	width: 97%;
+}
+.features_cnt {
+	width: 90%;
+}
+.pros_img img{width:100%;}
+.reqst_demo_box {
+	padding: 45px 5px;
+}
+.banner_contain {
+	padding: 80px 50px;
+}
+.cta_section {
+	width: 80%;
+	padding: 70px 0;
+}
+.footer_cnt {
+	width: 96%;
+	margin: 0 auto;
+}
+.blog_post_box {
+	width: 90%;
+	padding: 60px 3%;}
+
+.pagination {
+	width: 90%;
+}
+.product_img_width{width:100%;}
+.product_cnt_info {
+	float: right;
+	width: 100%; padding-top:0px;
+}
+.product_cnt {
+	float: left;
+	width: 45%;
+	margin-left: 2%;
+}
+.product_align .product_cnt_info {
+	padding-left: 2%;
+}
+.benefits_box .featues_box {
+	padding: 40px 7px;
+}
+
+.wwa_banner_bg{min-height:inherit;}
+.blog_bg{min-height: inherit;}
+.request_demo_bg{min-height:inherit}
+.contact_bg{min-height: inherit;}
+.service_banner_bg{min-height: inherit;}
+.product_banner_bg{min-height: inherit;}
+.center_lavel {
+	width: 90%;
+}
+word_breack{display:inherit;}
+}
+
+@media only screen and (max-width:1023px){
+.align_right {
+	float: none;
+	text-transform: uppercase; padding-top:10px;
+}
+.footer_link ul{display:table; margin:0 auto;}	
+.main_container .navbar-expand-lg .navbar-nav .nav-link {
+	padding-bottom: 10px; padding-top:10px;
+}	
+}
+
+@media only screen and (max-width:991px){
+.black_bg{background:#0a0e1a;}	
+.nav-link:hover {
+	border-bottom:none; color:#0090ff !important;
+}
+.active{ border-bottom:none;}	
+}
+
+@media only screen and (max-width:767px){
+.banner_title {
+	font-size: 29px;
+	line-height: 34px;
+}	
+.banner_contain {
+	padding: 40px 50px;
+}
+.main_container {
+	width: 97%;
+	padding: 80px 0 50px;
+}
+.cta_text {
+	width: 90%;
+}
+.heading01 {
+	font-size: 31px;
+}
+.subhaeding01 {
+	font-size: 21px;
+	line-height: 27px;
+	padding-top: 10px;
+}
+.top_node {
+	text-align: right;
+}
+.node_width{width:70%;}
+.featues_box {
+	padding: 40px 12px;
+}
+.product_img_width{width:70%;}
+}
+
+@media only screen and (max-width:767px){
+.featues_box {
+	margin-bottom: 25px;
+}
+.features_cnt .row {
+	margin-top:0px;
+}
+.features_cnt {
+	padding: 28px 0 14px;
+}
+.body_container {
+	padding: 50px 0 55px;
+}
+.pros_box { margin-bottom:35px;}
+.propectives {
+	padding: 40px 0 20px;
+
+}
+.heading02 {
+	font-size: 20px;
+}
+.product_cnt {
+	float: none;
+	width: 94%;
+}
+.product_img {
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+.product_align .product_img {
+	float: none;
+	width: 100%;
+	text-align: center;
+}	
+.thank_you_box{width:90%;}
+.thk_cnt{padding:30px 30px;}
+.thk_box{padding:30px 0;}
+}
+
+@media only screen and (max-width:575px){
+.main_container .container {
+	width: 94%;
+}
+.cta_headion02 {
+	font-size: 27px;
+}	
+
+.cta_section {
+	padding: 50px 0;
+}
+.form_gray_bg .col{flex-basis: inherit; margin-bottom:20px;}
+.form_gray_bg .form-row {
+	margin-bottom: 0px;
+}
+.form_gray_bg .form_btn {
+	text-align: left;
+}
+.product_banner_bg .banner_contain {
+	padding: 30px 31px;
+}
+.product_name {
+	font-size: 29px;
+	padding-top: 20px;
+}
+.cta_btn a {
+	font-size: 15px;
+	padding: 10px 20px;
+}
+.banner_adjust .banner_contain {
+	padding: 30px 0 20px;
+}	
+}
+
+@media only screen and (max-width:320px){
+.banner_contain {
+	padding: 40px 10px;
+}
+.banner_title {
+	font-size: 21px;
+	line-height: 29px;
+}
+.banner_subtext {
+	font-size: 14px;
+	line-height: 23px;
+	padding-top: 15px;
+}
+.form_gray_bg {
+	padding: 50px 13px 25px;
+}
+.thk_cnt h2 {
+	font-size: 32px;
+	color: #35404f;
+	font-family: 'Segoe UI Bold';
+}		
+}
+
+@media only screen and (max-width:465px){
+.footer_link ul li {
+	padding-right: 18px;
+	font-size: 13px;
+}
+.pad_adjust02 {
+	padding: 33px 0 !important;
+}
+.thk_title {
+	font-size: 44px;
+}
+.thk_para {
+	font-size: 18px;
+	width: 99%;
+}
+.thanou_cnt {
+	margin: 50px auto 0;
+	width: 90%;
+
+}
+}
